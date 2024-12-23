@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #a3c4f3, #d0e6ff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh; 
+}
+
+.technical {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 700px; /* Max width of the content */
+    width: 100%;
+    height: 50%;
+}
+
+.technical h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+.technical p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+ul {
+    font-size: 18px;
+       margin-top: 10px;
+    padding-left: 20px; /* Adds indentation to the list */
+}
+li {
+    margin-bottom: 10px;
+    text-align: left; /* Align text to the left */
+}
