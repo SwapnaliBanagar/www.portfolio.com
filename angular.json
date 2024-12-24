@@ -25,6 +25,7 @@
           "options": {
             "outputPath": "dist/swapnali_portfolio",
             "index": "src/index.html",
+            "baseHref": "/www.portfolio.com/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -34,6 +35,7 @@
               {
                 "glob": "**/*",
                 "input": "public"
+                
               }
             ],
             "styles": [
