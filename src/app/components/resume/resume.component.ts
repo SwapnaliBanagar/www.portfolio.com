@@ -21,7 +21,16 @@ import { Component } from '@angular/core';
         text-align: center;
         background-color: #f0f0f0;
         height: 100vh;
+        width:100%
       }
+
+       @media only screen and (min-device-width: 0px) and (max-width: 320px) {
+    .resume-container{
+      height: 200vh;
+      width: 217%; ;
+          }
+  }
+
     `,
   ],
 })

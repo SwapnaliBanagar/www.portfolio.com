@@ -5,18 +5,19 @@
     gap: 15px;
     padding: 10px 0;
     /* Padding around the buttons */
-    background: linear-gradient(135deg, #58a537, #94b3c8);
-   padding-left: 50%;
-   
+    background: linear-gradient(135deg, #7b81f9, #94b3c8);
+    padding-left: 50%;
+    
 }
 
 .mainDiv a {
     font-size: 13px;
     font-weight: bold;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
+    /* Remove underline */
     color: white;
     text-align: center;
-   
+
 }
 
 /* Button Styling */
@@ -27,7 +28,7 @@
     display: flex;
     cursor: pointer;
     border-radius: 5px;
-    
+
 }
 
 
@@ -48,4 +49,84 @@
     /* Dark green for active button */
     color: #ffffff;
     /* White text color */
+}
+
+
+
+
+
+@media only screen and (min-device-width: 0px) and (max-width: 320px) {
+    .mainDiv {
+        background: linear-gradient(135deg, #7b81f9, #94b3c8);
+        width: 180%;
+    }
+
+    .mainDiv button {
+        border: none;
+        padding: 8px 12px;
+        font-size: 1rem;
+        display: flex;
+        cursor: pointer;
+        border-radius: 5px;
+        
+    }
+}
+
+
+
+@media only screen and (min-device-width: 321px) and (max-width: 376px) {
+    .mainDiv {
+        background: linear-gradient(135deg, #7b81f9, #94b3c8);
+       
+        width: 190% ;
+           }
+
+    .mainDiv button {
+        border: none;
+        padding: 8px 12px;
+        font-size: 1rem;
+        display: flex;
+        cursor: pointer;
+        border-radius: 5px;
+
+    }
+}
+
+
+
+@media only screen and (min-device-width: 321px) and (max-width: 376px) {
+    .mainDiv {
+        background: linear-gradient(135deg, #7b81f9, #94b3c8);
+       
+        width: 190% ;
+           }
+
+    .mainDiv button {
+        border: none;
+        padding: 8px 12px;
+        font-size: 1rem;
+        display: flex;
+        cursor: pointer;
+        border-radius: 5px;
+
+    }
+}
+
+
+
+@media only screen and (min-device-width: 377px) and (max-width: 426px) {
+    .mainDiv {
+        background: linear-gradient(135deg, #7b81f9, #94b3c8);
+        width: 130% ; 
+           }
+
+    .mainDiv button {
+        border: none;
+        padding: 8px 12px;
+        font-size: 1rem;
+        display: flex;
+        cursor: pointer;
+        border-radius: 5px;
+
+    }
 }
