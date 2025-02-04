@@ -7,7 +7,8 @@
     /* Padding around the buttons */
     background: linear-gradient(135deg, #7b81f9, #94b3c8);
     padding-left: 50%;
-    
+
+
 }
 
 .mainDiv a {
@@ -57,29 +58,67 @@
 
 @media only screen and (min-device-width: 0px) and (max-width: 320px) {
     .mainDiv {
+
+        gap: 3px;
+        padding: 1px 0;
+        /* Padding around the buttons */
         background: linear-gradient(135deg, #7b81f9, #94b3c8);
-        width: 180%;
+        align-items: center;
+        /* Center buttons horizontally */
+        justify-content: center;
+        /* Center vertically */
+        padding: 5px;
+    }
+
+    .mainDiv a {
+        font-size: 10%;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+
     }
 
     .mainDiv button {
         border: none;
-        padding: 8px 12px;
-        font-size: 1rem;
+        padding: 5px 6px;  /*near button white circle padding */
+        font-size: 50%;
         display: flex;
         cursor: pointer;
         border-radius: 5px;
-        
+        text-align: center;
     }
+
+
 }
 
 
 
-@media only screen and (min-device-width: 321px) and (max-width: 376px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (min-device-width: 321px) and (max-width: 376px) {
     .mainDiv {
         background: linear-gradient(135deg, #7b81f9, #94b3c8);
-       
-        width: 190% ;
-           }
+
+        width: 190%;
+    }
 
     .mainDiv button {
         border: none;
@@ -91,15 +130,16 @@
 
     }
 }
+ */
 
 
 
-@media only screen and (min-device-width: 321px) and (max-width: 376px) {
+/* @media only screen and (min-device-width: 321px) and (max-width: 376px) {
     .mainDiv {
         background: linear-gradient(135deg, #7b81f9, #94b3c8);
-       
-        width: 190% ;
-           }
+
+        width: 190%;
+    }
 
     .mainDiv button {
         border: none;
@@ -110,15 +150,15 @@
         border-radius: 5px;
 
     }
-}
+} */
 
 
 
-@media only screen and (min-device-width: 377px) and (max-width: 426px) {
+/* @media only screen and (min-device-width: 377px) and (max-width: 426px) {
     .mainDiv {
         background: linear-gradient(135deg, #7b81f9, #94b3c8);
-        width: 130% ; 
-           }
+
+    }
 
     .mainDiv button {
         border: none;
@@ -129,4 +169,4 @@
         border-radius: 5px;
 
     }
-}
+} */
