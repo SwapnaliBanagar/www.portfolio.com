@@ -30,6 +30,24 @@ import { Component } from '@angular/core';
       width:87%; ;
           }
   }
+           @media only screen and (min-device-width: 321px) and (max-width: 376px) {
+    .resume-container{
+      height: 200vh;
+      width:87%; ;
+          }
+  }
+           @media only screen and (min-device-width: 377px) and (max-width: 426px) {
+    .resume-container{
+      height: 200vh;
+      width:87%; ;
+          }
+  }
+          @media only screen and (min-device-width: 427px) and (max-width: 769px) {
+    .resume-container{
+      height: 200vh;
+      width:94.6%; ;
+          }
+  }
 
     `,
   ],
